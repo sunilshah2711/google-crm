@@ -1,5 +1,6 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
+// import Sidebar from "../components/Sidebar";
+import SideMenu from "../components/Sidebar2";
 import { Row, Col, Container } from "react-bootstrap";
 
 const Dashboard = () => {
@@ -8,7 +9,8 @@ const Dashboard = () => {
       <Container fluid>
         <Row>
           <Col className="ps-0" sm={12} md={3} lg={2}>
-            <Sidebar />
+            {/* <Sidebar /> */}
+            <SideMenu />
           </Col>
           <Col className="p-0" sm={12} md={9} lg={10}></Col>
         </Row>
